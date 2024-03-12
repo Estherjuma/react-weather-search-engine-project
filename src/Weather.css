@@ -1,0 +1,55 @@
+ul, li{
+    list-style: none;
+    font-size: 30px;
+}
+.weather{
+    margin: 0px auto;
+    border: none;
+    border-radius: 20px;
+    padding: 30px;
+    background-color: rgb(156, 192, 223);
+   max-width: 600px;
+    box-shadow: 0 10px 30px black;
+}
+.form-control{
+    margin: 0 auto;
+}
+.degrees{
+    font-size: 80px;
+}
+.city{
+    color: rgb(23, 50, 73);
+       font-size: 50px;
+    text-align: center;
+     margin-top: 20px;
+}
+strong{
+    color: rgb(122, 124, 10); 
+}
+h2 strong{
+     font-size: 100px;
+    display: flex;
+    justify-content: center;
+}
+button{
+    padding: 7px;
+    background-color: rgb(23, 50, 73);
+    color: white;
+    border: 1px solid rgb(23, 50, 73);
+}
+img{
+  display: block;
+  margin: 0 auto;
+    width: 200px;
+  margin-top: 0px;
+  height: 300px;
+}
+h2 a{
+      font-size: 20px;
+   margin-top: 30px;
+   text-decoration: none;
+   color: rgb(23, 50, 73);
+}
+a:hover{
+    color: brown;
+}
