@@ -7,8 +7,9 @@ export default function WeatherForecast(props) {
     console.log(response);
   }
   const apiKey = "15b046dc320ab53a013bbof2tfa365eb";
-  let city = props.data.city;
-  const apiUrl = `https://api.shecodes.io/weather/v1/forecast?query=${city}&key=${apiKey}`;
+  const lon = props.data.coord.longitude;
+  const lat = props.data.coord.latitude;
+  const apiUrl = `https://api.shecodes.io/weather/v1/forecast?lon=${lon}&lat=${lat}&key=${apiKey}&units="metric"`;
 
   Axios.get(apiUrl).then(handleResponse);
   return (

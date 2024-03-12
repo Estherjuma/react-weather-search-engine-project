@@ -5,8 +5,7 @@ function App() {
   return (
     <div className="App">
       <div className="container">
-        <h1 className="App-header">Weather app by esther</h1>
-        <Weather />
+        <Weather dafaultCity="Nairobi" />
         <footer>
           This project was coded by{" "}
           <a href="https://github.com/Estherjuma" target="blank">
