@@ -13,7 +13,10 @@ function App() {
             Esther Juma
           </a>
           and is{" "}
-          <a href="/" target="blank">
+          <a
+            href="https://github.com/Estherjuma/react-weather-search-engine-project"
+            target="blank"
+          >
             open-sourced on Github
           </a>
         </footer>
